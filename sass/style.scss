@@ -1,4 +1,71 @@
+.navbar-nav a {
+    color: #ffffff;
+}
 
 .navbar-brand a {
     object-fit: cover;
+    padding-left: 70px;
+}
+
+.bg-img { 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header .card-body {
+    justify-content: center;
+}
+
+.services h2 h5 {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 75px;
+    font-family:  'Montserrat', sans-serif;
+}
+
+.header h4 {
+    font-size: 40px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.header btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.services i {
+    content: '';
+    color: #fed136;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 40px;
+    height: 39px;
+    line-height: 30px;
+}
+
+.our-portfolio img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.page-footer i {
+    color: #ffffff;
+    background: #000000;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+/* Media */
+@media (max-width: 767px) {
+    .header h1  {
+        font-size: 45px;
+     }
+        
+    .header h4 {
+        font-size: 20px;
+    }
 }

@@ -4,29 +4,189 @@
         <meta charset="utf-8">
         <title>Golden</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Signika:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap-grid.zip">
+        <link rel="stylesheet" href="/css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar fixed-top ">
+        <nav class="navbar navbar-expand-md navbar fixed-top">
             <a class="navbar-brand mx-5" href="#">
-                <img src="https://i.postimg.cc/dQdcpV6Z/pobrane.png" alt="logo-golden" width="160px" height="90px">
+                <img src="https://i.postimg.cc/dQdcpV6Z/pobrane.png" alt="logo-golden" width="200px" height="90px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse mx-5 justify-content-evenly" id="mobile-menu">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link" href="#">HOME</a></li>
-                    <li><a class="nav-link" href="#">SERVIECS</a></li>
-                    <li><a class="nav-link" href="#">PORTFOLIO</a></li>
-                    <li><a class="nav-link" href="#">ABOUT</a></li>
-                    <li><a class="nav-link" href="#">CONTACT</a></li>
+                    <li><a class="nav-link text-light" href="#">HOME</a></li>
+                    <li><a class="nav-link text-light" href="#">SERVIECS</a></li>
+                    <li><a class="nav-link text-light" href="#">PORTFOLIO</a></li>
+                    <li><a class="nav-link text-light" href="#">ABOUT</a></li>
+                    <li><a class="nav-link text-light" href="#">ABOUT</a></li>
+                    <li><a class="nav-link text-light" href="#">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
+        <section class="header">
+            <div class="container">
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img src="https://i.postimg.cc/CKswbFqP/pexels-mo-eid-8347501.jpg" width="100%" height="100%" alt="background-image">
+                            <div class="card-body position-absolute top-50 start-50 translate-middle text-light text-center">
+                                <h4 class="fst-italic lh-md">Sed ut perspiciatis unde omnis</h4>
+                                <h1 class="fw-bold lh-md">IT`S NICE TO MEET YOU</h1>
+                                <a class="btn btn-warning lh-lg text-light">Tell me more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center fw-bold">SERVICES</h2>
+                        <h5 class="text-center text-secondary fst-italic">Sed ut perspiciatis unde omnis iste natus error</h5>
+                    </div>
+                    <div class="row row justify-content-lg-between">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card border-white text-center">
+                                <div class="card-image py-3">
+                                    <span class=""> <!-- próbowałam dać border w html ale zamiast kółka było jajko... (dlatego tez zrobiłam tag span): border border-warning border-2 rounded-circle-->
+                                        <i class="fa-solid fa-basket-shopping fs-1" style="color: #fed136;" width="40px" height="40px"></i>
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card border-white text-center">
+                                <div class="card-image py-3">
+                                    <span class=""> <!-- próbowałam dać border w html ale zamiast kółka było jajko...: border border-warning border-2 rounded-circle-->
+                                        <i class="fa-solid fa-laptop fs-1" style="color: #fed136;"></i>
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card border-white text-center">
+                                <div class="card-image py-3">
+                                    <span class=""> <!-- próbowałam dać border w html ale zamiast kółka było jajko...: border border-warning border-2 rounded-circle-->
+                                        <i class="fa-solid fa-lock fs-1" style="color: #fed136;"></i>
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-portfolio bg-light py-5">
+                <div class="container">
+                    <div class="row justify-content-lg-between">
+                        <div class="col py-3">
+                            <h2 class="text-center fw-bold">OUR PORTFOLIO</h2>
+                            <h5 class="text-center text-secondary fst-italic">Sed ut perspiciatis unde omnis iste natus error</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-10 col-md-6 col-lg-4 my-3">
+                                <div class="card border-light bg-white">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/0jZrJFBJ/1.png" alt="first-image-portfolio">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="text-center fw-bold">Lorem ipsum</h3>
+                                        <p class="text-center text-secondary fst-italic">Sed ut perspiciatis unde</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 col-lg-4 my-3">
+                                <div class="card border-light bg-white">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/RVK48jR1/2.png" alt="second-image-portfolio">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="text-center fw-bold">Lorem ipsum</h3>
+                                        <p class="text-center text-secondary fst-italic">Sed ut perspiciatis unde</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 col-lg-4 my-3">
+                                <div class="card border-light bg-white">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/sggHSWvB/3.png" alt="third-image-portfolio">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="text-center fw-bold">Lorem ipsum</h3>
+                                        <p class="text-center text-secondary fst-italic">Sed ut perspiciatis unde</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 col-lg-4 my-3">
+                                <div class="card border-light bg-white">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/59pwzRv3/4.png" alt="fourth-image-portfolio">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="text-center fw-bold">Lorem ipsum</h3>
+                                        <p class="text-center text-secondary fst-italic">Sed ut perspiciatis unde</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 col-lg-4 my-3">
+                                <div class="card border-light bg-white">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/zBxFqtF0/5.png" alt="fifth-image-portfolio">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="text-center fw-bold">Lorem ipsum</h3>
+                                        <p class="text-center text-secondary fst-italic">Sed ut perspiciatis unde</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 col-lg-4 my-3">
+                                <div class="card border-light bg-white">
+                                    <div class="card-image">
+                                        <img src="https://i.postimg.cc/4xRVRRTX/6.png" alt="sixth-image-portfolio">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="text-center fw-bold">Lorem ipsum</h3>
+                                        <p class="text-center text-secondary fst-italic">Sed ut perspiciatis unde</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="page-footer py-3">
+            <div class="row">
+                <div class="col col-md-4">
+                    <p class="d-flex justify-content-around ps-4">©Copyright 2014 FreebiesXpress.com</p>
+                </div>
+                <div class="col col-md-6">
+                    <div class="icons ps-2 text-center">
+                        <i class="fa-brands fa-instagram mx-2 my-2"></i>
+                        <i class="fa-brands fa-twitter mx-2 my-2"></i>
+                        <i class="fa-brands fa-facebook mx-2 my-2"></i>
+                        <i class="fa-brands fa-youtube mx-2 my-2"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
